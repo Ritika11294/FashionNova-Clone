@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/recent.css">
+    <link rel="stylesheet" href="/reset.css">
+    <title>Recently Items</title>
+    <style>
+        #recent-main{
+            font-family:'Lato';
+            width: 100%;
+            height: 700px;
+        }
+        #anounce-bar{
+            height: 50px;
+            width: 100%;
+            background-color: black;
+        }
+        #recent-header{
+            height: 60px;
+            width: 100%;
+        }
+        ul{
+            display: flex;
+            padding: 20px;
+            list-style: none;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        li{
+            font-size: 14px;
+            margin-left: 10px;
+        }
+        .recent-view{
+            display: grid;
+            align-items: center;
+            text-align: center;
+            font-size: 35px;
+            height: 100px;
+            font-weight: bold;
+        }
+        .arrow,.recently-viewed{
+            color: rgb(116, 116, 116);
+        }
+        .no-item{
+            text-align: center;
+            width: 100%;
+            height: 200px;
+        }
+        h3{
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        button{
+            background-color: black;
+            font-size: 18;
+            color: white;
+            letter-spacing: 2px;
+            padding: 15px 50px;
+            border: 1px solid black;
+            margin-top: 70px;
+        }
+
+        button:hover{
+            color: black;
+            background-color: white;
+            cursor: pointer;    
+        }
+
+        p{
+            color: white;
+            text-align: center;
+            padding-top: 16px;
+        }
+        .home_recent:hover{
+            text-decoration: underline;
+        }
+
+        .recommended{
+            width: 100%;
+            height: 800px;
+            
+        }
+        .recommend_images{
+            display: flex;
+            width: 100%;
+        }
+        .marginimg{
+            margin-left: 8%;
+        }
+        .textaligncenter{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="recent-main">
+    <div id="anounce-bar">
+        <p>The Party Starts Now! 30-70% Off Absolutely Everything!</p>
+    </div>
+    <div id="recent-header">
+        <ul>
+            <li class="home_recent"> <a href="index.html">Home</a> </li>
+            <li class="arrow">></li>
+            <li class="recently-viewed">Recently viewed</li>
+        </ul>
+    </div>
+    <div class="recent-view">
+        <h1>
+            RECENTLY VIEWED
+        </h1>
+    </div>
+    <div class="no-item">
+        <h3>You have no recently viewed items</h3>
+        <a href="index.html"><button>CONTINUE SHOPPING</button></a>
+    </div>
+    <div class="recommended">
+        <div><h1 class="textaligncenter">RECOMMENDED FOR YOU</h1></div>
+        <div class="recommend_images">
+            <img width="30%" class="marginimg" src="https://cdn.shopify.com/s/files/1/0293/9277/products/10-23-19_Studio_2_RM_KYS_10-32-20_7__IST1930_Black_1052_JK_468x.jpg?v=1575936021" alt="">
+        <img width="30%"  src="https://cdn.shopify.com/s/files/1/0293/9277/products/09-10-20Studio2_DD_DC_13-43-18_33_SW443_Beige_6627_NT_468x.jpg?v=1599781083" alt="">
+        <img width="30%"  src="https://cdn.shopify.com/s/files/1/0293/9277/products/11-23-21Studio1_CE_12-13-49_57_IMSET61099_Brown_P_3525_MH_468x.jpg?v=1637788025" alt="">
+        </div>
+        
+    </div>
+</div>
+</body>
+</html>

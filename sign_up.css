@@ -1,0 +1,126 @@
+
+  #firstName {
+    width: 400px;
+    height: 20px;
+    padding: 20px 20px 5px;
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+    font: 400 14px/20px proxima-nova,Arial,sans-serif;
+  }
+  #lastName {
+    width: 400px;
+    height: 20px;
+    padding: 20px 20px 5px;
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+    font: 400 14px/20px proxima-nova,Arial,sans-serif;
+  }
+
+  .create {
+      margin-top: 50px;
+    text-align: center;
+     font-family: sans-serif;
+  }
+
+  #email {
+    width: 400px;
+    height: 20px;
+    padding: 20px 20px 5px;
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+    font: 400 14px/20px proxima-nova,Arial,sans-serif;
+  }
+  #password {
+    width: 400px;
+    height: 20px;
+    padding: 20px 20px 5px;
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+    font: 400 14px/20px proxima-nova,Arial,sans-serif;
+  }
+
+  #create_btn{
+    margin-left: 35.5%;
+  }
+  
+  .createAccount {
+    width: 250px;
+    /* margin: auto; */
+    padding: 10px 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-right: 130px;
+    margin-top: -10px;
+  }
+  .createAccount:hover {
+    background-color: white;
+    color: black;
+  }
+ 
+  .back_login {
+    width: 200px;
+    margin: auto;
+    height: 30px;
+    text-decoration: underline;
+    cursor: pointer;
+    letter-spacing: .8px;
+     font: 400 16px/20px proxima-nova,Arial,sans-serif;
+  }
+
+  .customer_log{
+      color: black;
+      
+  }
+
+
+  .checkBox{
+      width: 460px;
+      height: 80px;
+      /* border: 1px solid red; */
+      margin: auto;
+      font: 400 14px/20px proxima-nova,Arial,sans-serif;
+      font-size: 14px;
+      color: #56596c;
+      margin-top: -18px;
+      padding-left: 10px;
+      
+  }
+      
+     
+  
+
+  .home_signup{
+    text-decoration: none;
+    cursor: pointer;
+    font: 600 12px/16px proxima-nova,Arial,sans-serif;
+    margin-left: 45px;
+    margin-right: 8px;
+    color: black;
+           
+}
+
+.home_signup:hover{
+    text-decoration: underline;
+}
+
+
+.account{
+    font: 400 10px/14px proxima-nova,Arial,sans-serif; 
+    letter-spacing: 1px; 
+    color: rgb(116, 116, 116);
+}
+ 
+.gt{
+  color: black;
+margin-right: 8px;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+  
+

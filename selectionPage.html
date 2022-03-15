@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        /* body{
+            margin-top:0px;
+            border:1px solid red;
+        } */
+        .largeimage{
+            height:450px;
+             width:320px;
+
+        }
+        .largeimage:hover{
+            cursor:zoom-in;
+            transform: scale(1.5);
+        }
+        .anchor{
+            color:rgb(43, 40, 40);
+            font-size: 15px;
+            
+        }
+        #container{
+            display:flex;
+        }
+        .red{
+            color:red;
+        }
+        .maroon{
+            color:maroon;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        .box1{
+            margin: 20px 100px 100px;
+        }
+        
+        .buttonid{
+            height:50px;
+            width:100px;
+            margin-top: 15px;;
+            font-size:15px;
+            background-color: white;
+            border:1px solid grey;
+            border-radius: 5px;
+        }
+        .buttonid:hover{
+            color: white;
+            background-color: black;
+            cursor:pointer;
+        }
+        .button:onclick{
+            color: white;
+            background-color: black;
+        }
+        .flex{
+            display:flex;
+
+        }
+        .color1{
+            background-color: black; border-radius: 50%; height:30px; width: 30px;
+            margin-right: 20px;
+        }
+        .color2{
+            background-color:maroon; border-radius: 50%; height:30px; width: 30px;
+        }
+        #imagelist{
+            height:400px;
+            width:100px;
+            border:1px solid transparent;
+            margin:20px 20px 50px 10px;
+            
+        }
+        .bagbutton{
+            height:50px;
+            width:300px;
+            font-size: 15px;
+            border-radius:60px ;
+            background-color: black;
+            color:white;
+            border:none;
+            margin-top: 20px;
+        }
+        .bagbutton:hover{
+            cursor:pointer;
+            background-color: rgb(77, 76, 76);
+        }
+        .smallimage{
+            
+            border:1px solid transparent;
+            height:100px;
+            width:90px;
+
+        }
+        .box2{
+            margin-left: 100px;
+        }
+        .rule{
+            text-decoration: line-through;
+        }
+        .usd{
+            font-weight: bold;
+            color:maroon;
+            margin-right:10px;
+            font-size: large;
+        }
+        #margin{
+            margin-left: 7px;
+        }
+     </style>
+  </head>
+  <body>
+      <div>
+          <span>
+              <a class="anchor"href="">Women  ></a>
+              <a class="anchor"href=""> Dresses   ></a>
+              <a class="anchor"href="">Kari Ruched Mini Dress - Black</a>
+            </span>
+      </div>
+      <div id="container">
+          <div id="imagelist">
+              
+              <div class="smallimage">
+                  <img class="smallimage" src="https://cdn.shopify.com/s/files/1/0293/9277/products/KariRuchedMiniDress-Black_MER_468x@2x.jpg?v=1638908613">
+              </div>
+              <div class="smallimage">
+                  <img class="smallimage" src="https://cdn.shopify.com/s/files/1/0293/9277/products/KariRuchedMiniDress-Black_MER_2_468x@2x.jpg?v=1639526866"/>
+              </div>
+              <div class="smallimage">
+                <img class="smallimage" src="https://cdn.shopify.com/s/files/1/0293/9277/products/10-07-21Studio2_ME_KP_14-11-05_70_JD45246L_Black_0657_EH_468x@2x.jpg?v=1639526866">
+              </div>
+              <div class="smallimage">
+                <img class="smallimage" src="https://cdn.shopify.com/s/files/1/0293/9277/products/10-07-21Studio2_ME_KP_14-11-17_70_JD45246L_Black_0661_EH_468x@2x.jpg?v=1639526866">
+              </div>
+              <!-- <div class="smallimage">
+                <img src="">
+              </div>
+              <div class="smallimage">
+                <img src="">
+              </div>
+              <div class="smallimage">
+                <img src="">
+              </div>
+              <div class="smallimage">
+                <img src="">
+              </div> -->
+          </div>
+          <div class="box1">
+              <img  class="largeimage" src="https://cdn.shopify.com/s/files/1/0293/9277/products/10-07-21Studio2_ME_KP_14-11-07_70_JD45246L_Black_0659_EH_468x@2x.jpg?v=1639526866" >
+          </div>
+          <div class="box2">
+              <p>Kari Ruched Mini Dress - Black</p>
+              <div class="flex">
+                <p class="usd" >USD  $16.99 </p>
+                <p class="rule">USD   $24.99</p>
+              </div>
+            
+              <div class="flex">
+                <p> 4 payments of $ 4.24 with </p>
+                <p class="bold" id="margin">ZIP</p>
+                <p id="margin">or</p>
+                <p class="bold" id="margin">Afterpay</p>
+                </div>
+                <p class="red">THE PARTY HAS STARTED! 30-70% OFF EVERYTHING!</p>
+                <p class="bold">Black</p>
+                <div class="flex">
+                    <div class="color1"></div>
+                    <div class="color2"></div>
+                </div>
+                
+                <p class="bold">Size</p>
+            
+                <div id="sizes">
+                    <button class="buttonid">S</button>
+                    <button class="buttonid">M</button>
+                    <button class="buttonid">L</button>
+                    <button class="buttonid">1X</button>
+                    <button class="buttonid">2X</button>
+                    <button class="buttonid">3X</button> 
+                </div>
+
+                
+                <a href="product-boyfriend-jeans.html"><button class="bagbutton">Add to bag</button></a>
+          
+
+
+
+          </div>
+
+      </div>
+  </body>
+    </body>
+      
+</html> 
+<script>
+    document.querySelector("bagbutton").addEventListener("click" , addToCart)
+    function addToCart(elem){
+    window.location.href = "product-boyfriend-jeans.html";
+    // var addedItem = document.querySelector("div").elem;
+    // console.log(addedItem);
+    // // document.querySelector("body").append(addedItem);
+    cart.push(elem);
+    console.log(cart);
+    localStorage.setItem("cart" , JSON.stringify(cart)); 
+}
+</script>

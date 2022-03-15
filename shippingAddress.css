@@ -1,0 +1,128 @@
+.image-logo img{
+  width: 15%;
+  margin: 3% 20%;
+}
+
+.shipping-address{
+  border: 1px solid grey;
+  width: 30%;
+  margin-left: 20%;
+  padding: 40px;
+  
+
+}
+.shipping-layout{
+  font-size:16px;
+  gap: 10px;
+  color: #777;
+  font-weight: bold;
+}
+
+.shipping-layout>a{
+  font-size:16px;
+  gap: 10px;
+  color: #777;
+  text-decoration: none;
+}
+.information{
+  font-size:16px;
+  color:#333;
+}
+.express{
+  font-size:20px;
+  margin: 2% 20%;
+  font-weight: bold;
+}
+.payment-button button{
+  padding: 10px 30px;
+  margin: 10px;
+}
+.payment-button button:nth-child(1){
+  padding: 10px 30px;
+  margin: 10px;
+  color: white;
+  background-color:blue;
+  border: 0;
+  border-radius:5px;
+  cursor: pointer;
+}
+.payment-button button:nth-child(2){
+  padding: 10px 30px;
+  margin: 10px;
+  color: black;
+    background: #fad676;  border: 0;
+  border-radius:5px;
+  cursor: pointer;
+}
+.payment-button button:nth-child(3){
+  padding: 10px 40px;
+  margin: 10px;
+  color: white;
+  background-color: black;
+  border: 0;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+.payment-button button:hover:nth-child(1){
+  padding: 10px 30px;
+  margin: 10px;
+  color: white;
+  background-color:rgb(46, 46, 102);
+  border: 0;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+
+.payment-button button:hover:nth-child(2){
+  padding: 10px 30px;
+  margin: 10px;
+  color: black;
+    background: #9b7612;  border: 0;
+  border-radius:5px;
+  cursor: pointer;
+}
+.payment-button button:hover:nth-child(3){
+  padding: 10px 40px;
+  margin: 10px;
+  color: rgb(14, 8, 8);
+    background: #9b7612;  border: 0;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+#select{
+  padding: 10px 35px;
+  font-size:20px;
+
+}
+#states{
+  padding: 10px 33px;
+  font-size:20px;
+  margin-bottom: 20px;
+
+}
+#submit{
+  background-color: #889e7e;
+  cursor: pointer;
+  border: 0;
+  border-radius:5px;
+  padding: 15px 20px;
+  color: white;
+}
+
+
+#submit:hover{
+  background-color: #325f1d;
+  cursor: pointer;
+  border: 0;
+  border-radius:5px;
+  padding: 15px 20px;
+  color: white;
+}
+.return{
+  text-decoration: none;
+  color: #333;
+  margin-left: 20px;
+}

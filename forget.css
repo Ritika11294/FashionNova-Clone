@@ -1,0 +1,89 @@
+.home_forget {
+    text-decoration: none;
+    font: 600 12px/16px proxima-nova,Arial,sans-serif;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 8px;
+    color: black;
+ }
+ .home_forget:hover{
+   text-decoration: underline;
+ }
+
+ .greater{
+    font-size: 10px;
+    color:black;
+    margin-right: 8px;
+    font-weight: bolder;
+ }
+
+ .account_forget{
+    font: 400 10px/14px proxima-nova,Arial,sans-serif; 
+    letter-spacing: 1px; 
+    color: rgb(116, 116, 116);
+ }
+ .forget_password{
+     width: 550px;
+     height: 250px;
+     /* border: 1px solid black; */
+     margin: auto;
+     margin-top: 20px;
+ }
+ .reset_password{
+     width: 550px;
+     height: 50px;
+     text-align: center;
+     
+     /* border: 1px solid red; */
+     margin: auto;
+     font-family:proxima-nova, Arial, sans-serif;
+     font-size: 15px;
+     letter-spacing: 0.3px;
+ }
+
+ .reset_email_para{
+     width: 550px;
+     height: 35px;
+     /* border: 1px solid green; */
+     font-family:proxima-nova, Arial, sans-serif;
+     font-size: 16px;
+     letter-spacing: 0.3px;
+    
+ }
+
+ .send_email_msg{
+     margin-left: 50px;
+     color:#53585f
+ }
+
+ #enter_email{
+     padding: 10px 10px;
+     border-radius: 4px;
+     width: 430px;
+     margin: auto;
+     margin-left: 50px;
+     font-family:proxima-nova, Arial, sans-serif;
+ }
+
+ .forget_submit{
+     padding: 12px 12px 12px;  
+     margin-top: 10px;
+    margin-left: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    margin-top: 17px;
+    font-family:proxima-nova, Arial, sans-serif;
+ }
+
+ .forget_submit:hover{
+     color: black;
+     background-color: white;
+ }
+
+ .a_cancel{
+     color: black;
+     font-weight: 520;
+     letter-spacing: 0.3px;
+     font-family:proxima-nova, Arial, sans-serif;
+ }

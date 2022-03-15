@@ -1,0 +1,121 @@
+/* Navbar css start */
+
+#navbar-main-div {
+  width: 99vw;
+  height: 210px;
+  border: 0px solid black;
+}
+#navbar-anounce-bar {
+  width: 100%;
+  height: 40px;
+  background-color: #e6caaf;
+  border: 1px solid transparent;
+}
+#navbar-anounce-bar-text {
+  color: #c31a16;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+#navbar-main-menu {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+}
+#navbar-main-button {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: black;
+  padding: 14px 20px 14px 20px;
+}
+.navbar-main-button-1 {
+  background-color: black;
+}
+#navbar-main-text-1 {
+  color: white;
+}
+#navbar-main-button:hover {
+  color: #53585f;
+}
+#iconbar-main {
+  display: flex;
+  width: 100%;
+  height: 79px;
+  background-color: black;
+}
+#iconbar-main-logo {
+  height: 78px;
+  width: 622px;
+  border: 1px solid transparent;
+}
+#a-tag {
+  display: flex;
+  text-decoration: none;
+}
+
+#logo-text-fashion {
+  letter-spacing: -3px;
+  color: white;
+  font-size: 38px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  padding: 18px 0px 0px 40px;
+}
+
+.log-span-nova {
+  letter-spacing: 0.1;
+  color: white;
+  font-size: 38px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  padding: 18px 0px 0px 0px;
+  -webkit-text-stroke: 3px white;
+}
+
+#iconbar-main-search-bar {
+  height: 77px;
+  width: 411px;
+  border: 1px solid transparent;
+}
+#iconbar-main-all-icon {
+  height: 77px;
+  width: 319px;
+  display: flex;
+  border: 1px solid transparent;
+}
+
+/* search bar */
+
+#iconbar-searchbar {
+  padding: 10px 70px;
+  border: transparent;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-left: 15px;
+  font-size: 15px;
+}
+#iconbar-searchbar:hover {
+  border: 1px solid gray;
+}
+
+#iconbar-icon {
+  height: 54px;
+  width: 66px;
+  border: 1px solid transparent;
+  padding: 20px 0px 0px 20px;
+}
+
+#iconbar-icon:hover {
+  filter: brightness(60%);
+}
+
+#menu-category {
+  width: 98%;
+  height: 50px;
+ 
+  
+}

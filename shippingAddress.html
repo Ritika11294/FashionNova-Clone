@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shipping Information</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./shippingAddress.css" />
+  </head>
+  <body>
+    <div class="image-logo">
+      <a href="./index.html"><img src="./assets/homelogo.svg" alt="logo" /></a>
+    </div>
+    <div class="shipping-address">
+      <div class="flex shipping-layout">
+        <a href="cart.html">Cart</a>
+        <img width="2%" src="./assets/lessthenimage.svg" alt="" />
+        <p class="information">Information</p>
+        <img width="2%" src="./assets/lessthenimage.svg" alt="" />
+        <p>Shipping</p>
+        <img width="2%" src="./assets/lessthenimage.svg" alt="" />
+        <p>Payment</p>
+      </div>
+
+      <div class="express">
+        <p>Express checkout</p>
+      </div>
+      <div class="payment-button flex">
+        <button>shop pay</butto>
+        <button>amazon pay</button>
+        <button>G Pay</button>
+      </div>
+      <hr>
+      <div class="address flex">
+        <form>
+          <label>Contact Information</label><br>
+          <input type="text" placeholder="Email or mobile number" id="mobile">
+           <br> 
+          <label>Shipping Address</label><br>
+          <input type="text" placeholder="First name (Optional)" id="firstName">
+          <input type="text" placeholder="Last name" id="lastName">
+          <input type="text" placeholder="Address" id="address"><br>
+          <input type="text" placeholder="Apartment, suite, etc (Optional)" id="apartment">
+          <br>
+          <input type="text" placeholder="City" id="city"><br>
+          <select id="select">
+          <option value="india">India</option>
+        </select>
+        <select id="states">
+          <option value="---">----</option>
+          <option value="up">U.P</option>
+          <option value="delhi">Delhi</option>
+          <option value="haryana">Haryana</option>
+
+        </select>
+        <input type="text" placeholder="ZIP Code" id="zipCode">
+          <br>
+          <input type="text" placeholder="Phone number" id="phoneNumber">
+          <br>
+         <input type="submit" value="Continue to sipping" id="submit">
+         <a class="return" href="./cart.html">Return to cart</a>
+
+        </form>
+       
+      </div>
+    </div>
+    <div><a href="https://preview.pixlr.com/images/800wm/100/1/1001451791.jpg">
+      <button>CONTINUE TO DELIVERY</button>
+    </a>
+     
+    </div>
+  </body>
+  <script src="./shippingAddress.js"></script>
+</html>

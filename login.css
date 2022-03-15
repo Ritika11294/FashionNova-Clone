@@ -1,0 +1,100 @@
+.home_login {
+  text-decoration: none;
+  font: 600 12px/16px proxima-nova, Arial, sans-serif;
+  cursor: pointer;
+  color: black;
+}
+.home_login:hover {
+  text-decoration: underline;
+}
+
+.account_login {
+  font: 400 10px/14px proxima-nova, Arial, sans-serif;
+  letter-spacing: 1px;
+  color: rgb(116, 116, 116);
+}
+
+/* .join {
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+  } */
+#email {
+  width: 400px;
+  height: 10px;
+  padding: 20px 20px 5px;
+  display: block;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+#password {
+  width: 400px;
+  height: 10px;
+  padding: 20px 20px 5px;
+  display: block;
+  margin: auto;
+  padding-bottom: 15px;
+}
+#forgotPassword {
+  color: black;
+  font-weight: bold;
+  margin-right: 272px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  font-family: proxima-nova, Arial, sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  text-decoration: underline;
+}
+#forgotPassword:hover {
+  color: darkgray;
+}
+#btn_login {
+  text-align: center;
+  width: 445px;
+  height: 10px;
+  padding: 15px 20px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  padding-bottom: 28px;
+}
+#btn:hover {
+  background-color: white;
+  color: black;
+}
+.loginForm {
+  text-align: center;
+}
+
+.gt_login {
+  color: black;
+  padding: 10px;
+  font-size: 12px;
+}
+.newUser {
+  /* text-align: center; */
+  /* margin-right: 274px; */
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 400 14px/20px proxima-nova, Arial, sans-serif;
+  letter-spacing: 0.8px;
+}
+#customer_register_link {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#customer_register_link:hover {
+  color: darkgray;
+}
+
+/* Admin user */
+
+.adminUser {
+  font-weight: bold;
+  color: orange;
+  font-size: 16px;
+}

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Checkout</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .header {
+        height: 62px;
+        width: 100%;
+        /* border: 1px solid red; */
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        background-color: black;
+        color: white;
+        display: flex;
+      }
+      #main-heading {
+        padding: 5px 10px;
+        margin-left: 20px;
+        margin-top: 2px;
+      }
+      #lock-icon {
+        width: 25px;
+        height: 30px;
+        /* border: 1px solid yellow; */
+        margin-left: 12px;
+        margin-top: 20px;
+      }
+      .material-icons {
+        font-size: 18px;
+        color: lightgray;
+      }
+      #secure-checkout {
+        /* border: 1px solid red; */
+        height: 40px;
+        width: 130px;
+        margin-left: 8px;
+        margin-top: 22px;
+        font-size: 13px;
+        color: lightgray;
+      }
+      #secure-checkout > p {
+        font-family: "proxima-nova", sans-serif;
+      }
+      .payment-options {
+        height: 118px;
+        width: 480px;
+        border: 1px solid lightgray;
+        margin-left: 200px;
+        margin-top: 65px;
+      }
+      .express-checkout {
+        font-size: 12px;
+        font-family: "proxima-nova", sans-serif;
+        text-align: center;
+        margin-top: 18px;
+      }
+      .payment-icons {
+        display: flex;
+        height: 58px;
+        width: 430px;
+        /* border: 1px solid lightgray; */
+        margin: auto;
+      }
+      .contact-info {
+        height: 70px;
+        width: 480px;
+        margin-left: 200px;
+        margin-top: 30px;
+      }
+      .existing-account {
+        border: 1px solid lightgray;
+
+        width: 482px;
+        height: 45px;
+        background-color: #e9f1fd;
+        margin-top: 4px;
+      }
+      #contact {
+        font-size: 17px;
+        font-family: "proxima-nova", sans-serif;
+        font-weight: bold;
+      }
+      .existing-account > p {
+        /* border: 1px solid green; */
+        margin-top: 14px;
+        padding-left: 12px;
+        font-family: "proxima-nova", sans-serif;
+        font-size: 13px;
+      }
+
+      #input-email {
+        width: 470px;
+        height: 56px;
+        margin-left: 200px;
+        margin-top: 10px;
+        padding-left: 10px;
+        border: 1px solid lightgray;
+      }
+      #shipping-add {
+        margin-left: 200px;
+        margin-top: 40px;
+        font-size: 17px;
+        font-family: "proxima-nova", sans-serif;
+      }
+      #select-country {
+        width: 480px;
+        height: 56px;
+        margin-left: 200px;
+        margin-top: 15px;
+        border: 1px solid lightgray;
+      }
+      #country-region {
+        border: transparent;
+        padding-left: 10px;
+        font-family: "proxima-nova", sans-serif;
+        font-size: 12px;
+        margin-top: 4px;
+        font-weight: bold;
+      }
+      #country {
+        /* border: 1px solid red; */
+        margin-bottom: 4px;
+        padding-left: 10px;
+        margin-top: 4px;
+        font-family: "proxima-nova", sans-serif;
+        font-size: 12px;
+      }
+      .name {
+        display: flex;
+        margin-left: 200px;
+        margin-top: 15px;
+      }
+      #first-name {
+        width: 234px;
+        height: 56px;
+        /* border: 1px solid lightgray; */
+      }
+      #last-name {
+        width: 234px;
+        height: 56px;
+        /* border: 1px solid lightgray; */
+        margin-left: 10px;
+      }
+      #company {
+        width: 480px;
+        height: 56px;
+        margin-left: 200px;
+        /* border: 1px solid lightgray; */
+        margin-top: 15px;
+      }
+      #address {
+        width: 480px;
+        height: 56px;
+        margin-left: 200px;
+        /* border: 1px solid lightgray; */
+        margin-top: 15px;
+      }
+      #apartment {
+        width: 480px;
+        height: 56px;
+        margin-left: 200px;
+        /* border: 1px solid lightgray; */
+        margin-top: 15px;
+      }
+      #city {
+        width: 152px;
+        height: 56px;
+        /* border: 1px solid lightgray; */
+      }
+      #state {
+        width: 152px;
+        height: 56px;
+        /* border: 1px solid lightgray; */
+        margin-left: 16px;
+      }
+      #pincode {
+        width: 152px;
+        height: 56px;
+        /* border: 1px solid lightgray; */
+        margin-left: 10px;
+      }
+      .city-pin-code {
+        display: flex;
+        margin-top: 15px;
+        margin-left: 200px;
+      }
+      #phone {
+        width: 480px;
+        height: 56px;
+        margin-left: 200px;
+        /* border: 1px solid lightgray; */
+        margin-top: 15px;
+      }
+      #btn-div {
+        width: 480px;
+        height: 56px;
+        margin-left: 200px;
+        /* border: 1px solid red; */
+        margin-top: 25px;
+        margin-bottom: 40px;
+      }
+      #btn {
+        height: 56px;
+        width: 290px;
+        margin-left: 193px;
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        font-family: "proxima-nova", sans-serif;
+      }
+      #delivery-method {
+        width: 480px;
+        height: 68px;
+        /* border-top: 1px solid #e6e6e6; */
+        border-top: 1px solid black;
+        /* border-bottom: 1px solid black; */
+        margin-left: 200px;
+        font-size: 19px;
+        font-family: "proxima-nova", sans-serif;
+      }
+      #payment-method {
+        width: 480px;
+        height: 68px;
+        /* border-top: 1px solid #e6e6e6; */
+        border-top: 1px solid black;
+        /* border-bottom: 1px solid black; */
+        margin-left: 200px;
+        font-size: 19px;
+        font-family: "proxima-nova", sans-serif;
+      }
+      h4 {
+        margin-top: 22px;
+        color: #a09c9c;
+      }
+      .checkout-footer {
+        display: flex;
+        height: 58px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        border: 1px solid green;
+      }
+      #copyrights {
+        height: 13px;
+        width: 232px;
+        font-size: 11px;
+        font-family: "proxima-nova", sans-serif;
+        margin-left: 30px;
+        /* border: 1px solid red; */
+        margin-top: 20px;
+        color: #d0d0d0;
+      }
+      .links-privacy-terms {
+        display: flex;
+        /* border: 1px solid red; */
+        height: 18px;
+        width: 272px;
+        margin-left: 500px;
+        color: white;
+        margin-top: 20px;
+      }
+      #privacy {
+        color: white;
+        font-size: 11px;
+        font-family: "proxima-nova", sans-serif;
+        text-decoration: none;
+      }
+      #terms {
+        color: white;
+        margin-left: 45px;
+        font-size: 11px;
+        font-family: "proxima-nova", sans-serif;
+        text-decoration: none;
+      }
+      #payment-icons {
+        margin-top: 15px;
+        margin-left: 80px;
+      }
+      img {
+        height: 20px;
+      }
+      .input {
+        width: 222px;
+        height: 56px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        font-family: "proxima-nova", sans-serif;
+      }
+      #ln {
+        width: 222px;
+        height: 56px;
+        margin-left: 4px;
+        padding-left: 10px;
+        font-family: "proxima-nova", sans-serif;
+        border: 1px solid lightgray;
+      }
+      #co {
+        width: 470px;
+        height: 56px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        font-family: "proxima-nova", sans-serif;
+      }
+      #ad {
+        width: 470px;
+        height: 56px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        font-family: "proxima-nova", sans-serif;
+      }
+      #apart {
+        width: 470px;
+        height: 56px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        font-family: "proxima-nova", sans-serif;
+      }
+      #ct {
+        width: 147px;
+        height: 54px;
+        border: 1px solid lightgray;
+        padding-left: 5px;
+        font-family: "proxima-nova", sans-serif;
+      }
+      #states {
+        width: 147px;
+        height: 56px;
+        border: 1px solid lightgray;
+        padding-left: 5px;
+        font-family: "proxima-nova", sans-serif;
+      }
+      #pc {
+        width: 147px;
+        height: 54px;
+        border: 1px solid lightgray;
+        padding-left: 5px;
+        font-family: "proxima-nova", sans-serif;
+      }
+      #phn {
+        width: 470px;
+        height: 56px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        font-family: "proxima-nova", sans-serif;
+      }
+      .size {
+        width: 106px;
+        height: 48px;
+        /* border: 1px solid red; */
+        margin-top: auto;
+        margin-bottom: 2px;
+        cursor: pointer;
+      }
+      .img-size {
+        width: 100px;
+        height: 48px;
+      }
+      #amazon {
+        background-color: #fad676;
+      }
+      #paypal {
+        background-color: #ffc439;
+      }
+      #googlepay {
+        background-color: black;
+      }
+      #paytm {
+        background-color: lightsteelblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1 id="main-heading">FASHIONNOVA</h1>
+      <div id="lock-icon">
+        <i class="material-icons">lock</i>
+      </div>
+      <div id="secure-checkout"><p>Secure Checkout</p></div>
+    </div>
+    <div class="main">
+      <div class="payment-options">
+        <h2 class="express-checkout">Express checkout</h2>
+        <div class="payment-icons">
+          <div class="size">
+            <img
+              src="https://www.logo.wine/a/logo/Paytm/Paytm-Logo.wine.svg"
+              alt=""
+              id="paytm"
+              class="img-size"
+            />
+          </div>
+          <div class="size">
+            <img
+              src="https://www.logo.wine/a/logo/Amazon_Pay/Amazon_Pay-Logo.wine.svg"
+              alt=""
+              id="amazon"
+              class="img-size"
+            />
+          </div>
+          <div class="size">
+            <img
+              src="https://www.logo.wine/a/logo/PayPal/PayPal-Logo.wine.svg"
+              alt=""
+              id="paypal"
+              class="img-size"
+            />
+          </div>
+          <div class="size">
+            <img
+              src="https://www.logo.wine/a/logo/Google_Pay/Google_Pay-Logo.wine.svg"
+              alt=""
+              id="googlepay"
+              class="img-size"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="contact-info">
+        <h2 id="contact">CONTACT INFORMATION</h2>
+        <div class="existing-account">
+          <p class="para">
+            Already have an account? <a href="" id="login">Log in</a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <input type="email" id="input-email" placeholder="Email" />
+      </div>
+      <h2 id="shipping-add">SHIPPING ADDRESS</h2>
+      <div id="select-country">
+        <p id="country">Country/region</p>
+        <select id="country-region">
+          <option value="">India</option>
+          <option value="">Australia</option>
+          <option value="">UK</option>
+          <option value="">US</option>
+          <option value="">Canada</option>
+        </select>
+      </div>
+    </div>
+  </body>
+</html>
