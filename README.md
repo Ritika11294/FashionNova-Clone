@@ -33,4 +33,12 @@ Along with that, in order to store user data and product data we also used Local
 
 
 Check the hosted website [here](https://fashion-nova-clone-seven.vercel.app/) and read our blog [here](https://medium.com/@salmankhan231999/clone-of-fashionnova-com-7681e2a5bf59).
+ ## Glimpse of website
+![Landing Page](https://user-images.githubusercontent.com/87424668/159942849-989cedb6-e9bd-4fb9-a767-dd973862d0c1.png)
+![Footer](https://user-images.githubusercontent.com/87424668/159943432-df209b3b-583e-4180-a594-141a131434ac.png)
+![Signup](https://user-images.githubusercontent.com/87424668/159943540-cf1cec29-ac00-455f-b306-95514784cbeb.png)
+![Login](https://user-images.githubusercontent.com/87424668/159943629-2ad0e23a-1c2a-4647-8ec9-785c54303331.png)
+![Product Gallery](https://user-images.githubusercontent.com/87424668/159943728-0099b8f5-10de-48fd-8c13-6621829dd0f7.png)
+![Check out](https://user-images.githubusercontent.com/87424668/159943869-7cef306d-900d-4d45-9e86-d42c278810f2.png)
+
 
