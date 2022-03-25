@@ -12,6 +12,24 @@ Our name has been featured in songs and our styles have been worn by your favori
 The company operates online and has five brick-and-mortar locations. The company is known to utilize social media marketing, particularly on Instagram. Models, celebrities, and other customers receive payments or free clothing in exchange for generating publicity about the company.
 
 
+## Pages & Features :point_down:
+
+- `Home Page`: Tried best to clone the home page .
+- `Sign-Up Page`: User details validated directly from local stroage.
+- `Sign-In Page`: User authentication to check whether user email and password match with details existing in the local storage.
+- `Product Category Page`: Products created dynamically.
+- `Cart Page`: User can see products added in the cart.
+- `Checkout Page`: Users can add the delivery address.
+- `Payment Page`: debit and credit card payment option. Users can add their payment details.
+- `Order Successful Page` : After successul payment user will be redirected to home page.
+
+
+
+## How To Use ✅
+
+First you have to have to go to the signup page and create a new account. Then you will be find an alert that signup successful. After the signup process is completed you have to login with the same details you wil redirected to landing page. You can now go to the category page and navigate to add products to the cart. After that you can proceed to the checkout page. you will redirected to the checkout page and add your address and proceed to payment page to add your debit/credit card detials to place your order successfully. 
+
+
 
 ## Technologies we used
 <ul>
