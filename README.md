@@ -27,7 +27,7 @@ The company operates online and has five brick-and-mortar locations. The company
 
 ## How To Use ✅
 
-First you have to have to go to the signup page and create a new account. Then you will be find an alert that signup successful. After the signup process is completed you have to login with the same details you wil redirected to landing page. You can now go to the category page and navigate to add products to the cart. After that you can proceed to the checkout page. you will redirected to the checkout page and add your address and proceed to payment page to add your debit/credit card detials to place your order successfully. 
+First you have to have to go to the signup page and create a new account. Then you will get an alert that signup successful. After the signup process is completed you have to login with the same details and it wil redirect you to the landing page. You can now go to the category page and navigate to add products to the cart. After that you can proceed to the cart page then after clicking on checkout button you will be redirected to the payment page there you can add your payment details and after clicking on pay now button, you will get an alert of successful payment. 
 
 
 
